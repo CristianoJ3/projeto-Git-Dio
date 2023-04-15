@@ -1,0 +1,18 @@
+Primeiro foi criado o novo repositório no Github e um arquivo README.md 
+com uma breve descrição sobre a pasta. O repositório de chama:
+
+projeto-Git-Dio
+
+Feito isso, foi realizada a criação de uma pasta ESTUDOS para, então, clonar 
+o repositório do GitHub pelo Git com o comando a seguir:
+
+git clone https://github.com/CristianoJ3/projeto-Git-Dio
+
+Feito isso, foi criado este arquivo texto direto no repositório que fora clonado
+e adicionado no repositório na nuvem com a sequência de comandos a seguir:
+
+git add . ==> para atualiar o controle de versão local
+
+git commit -m <"breve descrição"> ==> para adicionar uma mensagem ao executar o commit
+
+git push origin main ==> para atualizar o repositório no GitHub
